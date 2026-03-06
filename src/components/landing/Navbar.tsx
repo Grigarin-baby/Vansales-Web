@@ -58,7 +58,7 @@ export function Navbar({ onOpenDemo }: NavbarProps) {
         opacity: 0, 
         duration: 0.3, 
         ease: 'power2.in',
-        onComplete: () => gsap.set(menu, { display: 'none' })
+        onComplete: () => { gsap.set(menu, { display: 'none' }); }
       });
     }
   }, [mobileOpen]);

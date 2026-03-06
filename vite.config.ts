@@ -13,11 +13,9 @@ export default defineConfig({
   server: {
     port: 3091,
     strictPort: true,
-    allowedHosts: ['vansales.bairuhatech.com'],
   },
   preview: {
     port: 3091,
     strictPort: true,
-    allowedHosts: ['vansales.bairuhatech.com'],
   },
 })
